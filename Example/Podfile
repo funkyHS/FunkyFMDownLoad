@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FunkyFMDownLoad_Example' do
+  pod 'FunkyFMDownLoad', :path => '../'
+
+  target 'FunkyFMDownLoad_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
