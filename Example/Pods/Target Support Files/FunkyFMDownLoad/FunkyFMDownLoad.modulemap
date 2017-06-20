@@ -1,0 +1,6 @@
+framework module FunkyFMDownLoad {
+  umbrella header "FunkyFMDownLoad-umbrella.h"
+
+  export *
+  module * { export * }
+}

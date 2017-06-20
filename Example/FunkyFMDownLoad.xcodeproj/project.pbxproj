@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0212583923B43CC1F66EA480 /* Pods-FunkyFMDownLoad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkyFMDownLoad_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunkyFMDownLoad_Tests/Pods-FunkyFMDownLoad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		29E8DE53C0E90090644B1797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		29E8DE53C0E90090644B1797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5668A42B7B81BDC5A43390F4 /* Pods_FunkyFMDownLoad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkyFMDownLoad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		571468CAD241AD5B236010A8 /* Pods_FunkyFMDownLoad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkyFMDownLoad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FunkyFMDownLoad_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyFMDownLoad_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A98207CC07DE16A8CF2F8D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A98207CC07DE16A8CF2F8D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7FC67C493372FBF500E3F13D /* FunkyFMDownLoad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FunkyFMDownLoad.podspec; path = ../FunkyFMDownLoad.podspec; sourceTree = "<group>"; };
+		7FC67C493372FBF500E3F13D /* FunkyFMDownLoad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FunkyFMDownLoad.podspec; path = ../FunkyFMDownLoad.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B34795D8D0FCDB72CE832E49 /* Pods-FunkyFMDownLoad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkyFMDownLoad_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunkyFMDownLoad_Example/Pods-FunkyFMDownLoad_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7590823D42F650DF4B6B750 /* Pods-FunkyFMDownLoad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkyFMDownLoad_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunkyFMDownLoad_Example/Pods-FunkyFMDownLoad_Example.debug.xcconfig"; sourceTree = "<group>"; };

@@ -1,0 +1,27 @@
+{
+  "name": "FunkyFMDownLoad",
+  "version": "0.1.0",
+  "summary": "FunkyFMDownLoad",
+  "description": "FunkyFMDownLoad 是FunkyFM 的下载资源组件，可以根据传人的url，下载url对应的资源文件",
+  "homepage": "https://github.com/funkyHS/FunkyFMDownLoad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "funkyHS": "hs1024942667@163.com"
+  },
+  "source": {
+    "git": "https://github.com/funkyHS/FunkyFMDownLoad.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FunkyFMDownLoad/Classes/**/*",
+  "dependencies": {
+    "FunkyFMBase/Tool": [
+
+    ]
+  }
+}
