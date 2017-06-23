@@ -7,7 +7,7 @@
 //
 
 #import "HSDownLoader.h"
-#import "HSFileTool.h"
+#import "HSDownLoadFileTool.h"
 
 
 #define kCachePath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
@@ -84,7 +84,7 @@
     
     
     // 2. 判断, url地址, 对应的资源, 是否下载完毕,(下载完成的目录里面,存在这个文件)
-    if ([HSFileTool fileExists:self.downLoadedPath]) {
+    if ([HSDownLoadFileTool fileExists:self.downLoadedPath]) {
         // UNDO: 告诉外界, 已经下载完成;
         NSLog(@"已经下载完成");
         self.state = HSDownLoadStatePauseSuccess;
@@ -93,7 +93,7 @@
     
     
     // 3. 检测, 临时文件是否存在
-    if (![HSFileTool fileExists:self.downLoadingPath]) {
+    if (![HSDownLoadFileTool fileExists:self.downLoadingPath]) {
         
         // 3.1 --> 不存在，从0字节开始请求资源
         [self downLoadWithURL:url offset:0];
@@ -109,7 +109,7 @@
     //   本地大小  < 总大小  ==> 从本地大小开始下载
     
     // 获取本地大小
-    _tmpSize = [HSFileTool fileSize:self.downLoadingPath];
+    _tmpSize = [HSDownLoadFileTool fileSize:self.downLoadingPath];
     [self downLoadWithURL:url offset:_tmpSize];
     
     
@@ -133,7 +133,7 @@
 // 取消任务, 并清理资源
 - (void)cacelAndClean {
     [self cacelCurrentTask];
-    [HSFileTool removeFile:self.downLoadingPath];
+    [HSDownLoadFileTool removeFile:self.downLoadingPath];
     // 下载完成的文件 -> 手动删除某个声音 或者 统一清理缓存
 }
 
@@ -198,7 +198,7 @@
         NSLog(@"移动文件到下载完成");
         
         // 1. 移动到下载完成文件夹
-        [HSFileTool moveFile:self.downLoadingPath toPath:self.downLoadedPath];
+        [HSDownLoadFileTool moveFile:self.downLoadingPath toPath:self.downLoadedPath];
         
         // 2. 取消本次请求
         completionHandler(NSURLSessionResponseCancel);
@@ -214,7 +214,7 @@
         NSLog(@"删除临时缓存并重新开始下载");
         
         // 1. 删除临时缓存
-        [HSFileTool removeFile:self.downLoadingPath];
+        [HSDownLoadFileTool removeFile:self.downLoadingPath];
         
         // 2. 取消请求
         completionHandler(NSURLSessionResponseCancel);
@@ -261,7 +261,7 @@
         */
         
         // 移动数据  temp - > cache
-        [HSFileTool moveFile:self.downLoadingPath toPath:self.downLoadedPath];
+        [HSDownLoadFileTool moveFile:self.downLoadingPath toPath:self.downLoadedPath];
         self.state = HSDownLoadStatePauseSuccess;
 //        if (self.downLoadSuccess) {
 //            self.downLoadSuccess(self.cacheFilePath);

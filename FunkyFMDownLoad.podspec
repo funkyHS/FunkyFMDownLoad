@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FunkyFMDownLoad'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'FunkyFMDownLoad'
 
   s.description      = <<-DESC
@@ -20,5 +20,4 @@ FunkyFMDownLoad 是FunkyFM 的下载资源组件，可以根据传人的url，�
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-    s.dependency 'FunkyFMBase/Tool'
 end

@@ -1,7 +1,5 @@
 PODS:
-  - FunkyFMBase/Tool (0.1.3)
-  - FunkyFMDownLoad (0.1.0):
-    - FunkyFMBase/Tool
+  - FunkyFMDownLoad (0.1.1)
 
 DEPENDENCIES:
   - FunkyFMDownLoad (from `../`)
@@ -11,8 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FunkyFMBase: 4ea457f04ae8e45544577284971f5e61ce8f5973
-  FunkyFMDownLoad: 487c81f995fe407ae062b7d0f747486f969444e6
+  FunkyFMDownLoad: ed870faca052f44e761a39a0452ae7ef077c4c14
 
 PODFILE CHECKSUM: adc3201c33affc6cd3095f79ef0cf0ac12b35918
 

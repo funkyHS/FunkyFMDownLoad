@@ -7,133 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003D596FB5A8EBC46A8BF8BA54FF5D42 /* HSDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0277C1EFE7D5E1D5C9D3D893A35F8B /* HSDownLoadManager.m */; };
-		069CE1DAB24B2473140FF96BDC9021E1 /* HSCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A32FACABA4334C583C51E6AE9D002 /* HSCacheTool.m */; };
-		0A37D6FA626ACF0CFC79DC3CF6AB0DBC /* HSAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77850E23590F88F8B6AB561953BAF9F9 /* HSAlertTool.m */; };
-		150CA47E222EB66B82642CFCC4F3E08C /* FunkyFMDownLoad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DCCE2D2F5A3A796E58BC44D77E1471 /* FunkyFMDownLoad-dummy.m */; };
-		16EB29E5935E6EFF76D987052F76F376 /* FunkyFMDownLoad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADD111417FA352BF6C0BA9D3BFA2AE4 /* FunkyFMDownLoad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F106CD1A6FEF27EBC31295EB622A117 /* HSDeviceMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68750AE4DA3C80FCF37A51B18BA6A2D9 /* HSDeviceMessage.m */; };
-		21F275FBD7E7F7A68F778175E53ADEF9 /* HSAlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F97CC1933312F1AE905F03B0207AAF04 /* HSAlertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C6F50D100CA6D8A9EA7C5C36E60B08D /* Pods-FunkyFMDownLoad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B35FD67B206BD0C619D92B8EFCD72808 /* Pods-FunkyFMDownLoad_Example-dummy.m */; };
-		352196DE763E5907502EF7B3A700DA55 /* FunkyFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F4DFFA31C2C7494563D0C269598DF2 /* FunkyFMBase-dummy.m */; };
-		46E36A55B2BA54D4A826ADE757860023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
-		6A67AE714E827F099F05BE3721BA6C71 /* NSString+HSDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E41AA3F160E29A1FEDA47279C335C0ED /* NSString+HSDownLoader.m */; };
+		0DE09219A65E9D3E8737C49A06B8B965 /* HSDownLoadFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2EB80DBC2C7D2A58EEB45683E15F60 /* HSDownLoadFileTool.m */; };
+		18DF7125BE85B57C3ED0FE85F25A112F /* HSDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD2893D3CE74DDD9506038724214E7 /* HSDownLoader.m */; };
+		2E6EE834788D00E60022C4F2C4077401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		34041B08C6D4864D6DB4CA9C8A614964 /* HSDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68369FB0BD1C6DD97A2D76CF93C90F46 /* HSDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7AF229D02CBA49B25C70F46623D292 /* Pods-FunkyFMDownLoad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EE9A1051C39EDB9CA84048A71018D1 /* Pods-FunkyFMDownLoad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E36A55B2BA54D4A826ADE757860023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		72EB2B6ED2F0A2CE8CABC954A85155A5 /* NSString+HSDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B0EA703612BBA30EDB395B974A0569 /* NSString+HSDownLoader.m */; };
+		7A00303AC02A33EA254117A08F438908 /* HSDownLoadFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F6E822BEA67C2FC22334AB8CC08415 /* HSDownLoadFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B6C2E88BEF683DD4E49C77DAF831248 /* Pods-FunkyFMDownLoad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A304D88C99C452B36235BDD7734250 /* Pods-FunkyFMDownLoad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C72756B08C2E5964646D1BDDF09450 /* HSDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A523E12B2B524DAA836C017C1205C5 /* HSDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88095CBB152518E62758BA73EE4CCD76 /* FunkyFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F54401F818DEF103C007A9C2E861F743 /* FunkyFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE48C55BA0F7A1C12EA5FBED64C36C7F /* HSFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3661BE1715C3A514F72299CB0D0B667 /* HSFileTool.m */; };
-		C13BA3A72417916D25E2269E1463F7E6 /* HSFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 251ECA7DF92F50FD3912E24F31B3AE7F /* HSFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3186AFF67F32F60924F8634A942E0BB /* HSDeviceMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C250322490B59E4484D768AAA71429 /* HSDeviceMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB3E37FE3AF375282CF30039B4BCB959 /* NSString+HSDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 144ABC329D63280FF5198F1A7C94A335 /* NSString+HSDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D33D35FCA92087B967B03F9F58E7469D /* HSDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D23E0A00EBE50327333F999C73CC8F1 /* HSDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D926B9C1D59D9446FABA4079C6B511F6 /* FunkyFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */; };
-		D96434F7A9C5CCC2D70087D5534CBAE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
-		E3C3E4B894CB45F5210F40BD0B7279A9 /* HSDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 08452575C3973EF5130690DADF1BCA79 /* HSDownLoader.m */; };
-		E8B76E4BB460E1EBCB4423BC96EA36B4 /* HSCacheTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A90165983466B4DD400C520687DEBF /* HSCacheTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA93D383CED1D7F3409EA554DE191A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
-		EB1C3A80D373E117C76FE0DDC88B79D4 /* Pods-FunkyFMDownLoad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EE9A1051C39EDB9CA84048A71018D1 /* Pods-FunkyFMDownLoad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F466C31A66FD9A87229096E6124D796 /* NSString+HSDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6C1CECFA815DA407131C515EF9C799 /* NSString+HSDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987D502D2BD5CF6BA973A21C9869B445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB1A5FFCC1F080A9CB1D1692D3641CE3 /* FunkyFMDownLoad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADD111417FA352BF6C0BA9D3BFA2AE4 /* FunkyFMDownLoad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76A8F93655805722C2D5C23494B2687 /* HSDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B2162040989AEB6F8E221F8A89EA69 /* HSDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7D45F563266155F45C3AF91813F7CB /* FunkyFMDownLoad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DCCE2D2F5A3A796E58BC44D77E1471 /* FunkyFMDownLoad-dummy.m */; };
+		C898C5E4E8F775169EF0BD2FF7A035E8 /* HSDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D9E47A5F33761859869402D131EE76 /* HSDownLoadManager.m */; };
 		EB5779CE4A886A46612BB881F5B28822 /* Pods-FunkyFMDownLoad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1364E14A38F78591791266BE56F9850A /* Pods-FunkyFMDownLoad_Tests-dummy.m */; };
-		FED98DA5F659155512AD4BB2B41E4858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
+		F98FB7750D0B386AD77B4FBF4F6BF737 /* Pods-FunkyFMDownLoad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B35FD67B206BD0C619D92B8EFCD72808 /* Pods-FunkyFMDownLoad_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1936155DA2832454C341F773EBFE675C /* PBXContainerItemProxy */ = {
+		EE888DB082E8D2F13BE33B4793AEA389 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E71137F236F63205983C7174F6A52CB;
+			remoteGlobalIDString = 5A17882101ACB4F5DA2C7DE3711EE6B4;
 			remoteInfo = FunkyFMDownLoad;
-		};
-		1D3CD2C20191B3D42304367C220496B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17D2610F39C3A4512ED251C5B76AAA4B;
-			remoteInfo = FunkyFMBase;
-		};
-		B04996280E57BB38F0BD846C30AB40B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17D2610F39C3A4512ED251C5B76AAA4B;
-			remoteInfo = FunkyFMBase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08452575C3973EF5130690DADF1BCA79 /* HSDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoader.m; sourceTree = "<group>"; };
-		08A502858F717D50818C5671414BB560 /* FunkyFMDownLoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMDownLoad.framework; path = FunkyFMDownLoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A98318B0CE50A69A238CF3A97638A9A /* Pods-FunkyFMDownLoad_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoad_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1364E14A38F78591791266BE56F9850A /* Pods-FunkyFMDownLoad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMDownLoad_Tests-dummy.m"; sourceTree = "<group>"; };
-		13D0D5889321D48F1A99B6D636939F35 /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMBase.framework; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		141A32FACABA4334C583C51E6AE9D002 /* HSCacheTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSCacheTool.m; path = FunkyFMBase/Classes/Tool/HSCacheTool.m; sourceTree = "<group>"; };
-		144ABC329D63280FF5198F1A7C94A335 /* NSString+HSDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HSDownLoader.h"; sourceTree = "<group>"; };
 		1ECD39909663D908622542BCD32EEEC8 /* Pods-FunkyFMDownLoad_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoad_Tests-resources.sh"; sourceTree = "<group>"; };
-		20C250322490B59E4484D768AAA71429 /* HSDeviceMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSDeviceMessage.h; path = FunkyFMBase/Classes/Tool/HSDeviceMessage.h; sourceTree = "<group>"; };
 		2258F5D8671998A881DB57AD5B41DBC4 /* Pods-FunkyFMDownLoad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		251ECA7DF92F50FD3912E24F31B3AE7F /* HSFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSFileTool.h; path = FunkyFMBase/Classes/Tool/HSFileTool.h; sourceTree = "<group>"; };
-		280DD8E47D6EEF62F0F8D69FF058BE9B /* Pods_FunkyFMDownLoad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoad_Tests.framework; path = "Pods-FunkyFMDownLoad_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30A90165983466B4DD400C520687DEBF /* HSCacheTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSCacheTool.h; path = FunkyFMBase/Classes/Tool/HSCacheTool.h; sourceTree = "<group>"; };
 		33EE9A1051C39EDB9CA84048A71018D1 /* Pods-FunkyFMDownLoad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMDownLoad_Example-umbrella.h"; sourceTree = "<group>"; };
 		3ADD111417FA352BF6C0BA9D3BFA2AE4 /* FunkyFMDownLoad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMDownLoad-umbrella.h"; sourceTree = "<group>"; };
-		3D5F8BF53AED154CC52BCCACCF56B6F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		499BCC2CBD7AE8914717A27BC43F5263 /* FunkyFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMBase.xcconfig; sourceTree = "<group>"; };
-		4D23E0A00EBE50327333F999C73CC8F1 /* HSDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoader.h; sourceTree = "<group>"; };
+		3D6C1CECFA815DA407131C515EF9C799 /* NSString+HSDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HSDownLoader.h"; sourceTree = "<group>"; };
+		415A438A7227F3020C2BA3569337CCA2 /* FunkyFMDownLoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMDownLoad.framework; path = FunkyFMDownLoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F6E822BEA67C2FC22334AB8CC08415 /* HSDownLoadFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadFileTool.h; sourceTree = "<group>"; };
 		50A304D88C99C452B36235BDD7734250 /* Pods-FunkyFMDownLoad_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMDownLoad_Tests-umbrella.h"; sourceTree = "<group>"; };
 		51DCCE2D2F5A3A796E58BC44D77E1471 /* FunkyFMDownLoad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMDownLoad-dummy.m"; sourceTree = "<group>"; };
 		5BED32FF4373D0BF4E903639C824D4CD /* Pods-FunkyFMDownLoad_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMDownLoad_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FBD2893D3CE74DDD9506038724214E7 /* HSDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoader.m; sourceTree = "<group>"; };
 		60F29A0A884547ADBE59B2D94155384B /* Pods-FunkyFMDownLoad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMDownLoad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6362C1EFCEA777F6820EE97F9F2B4692 /* FunkyFMDownLoad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMDownLoad-prefix.pch"; sourceTree = "<group>"; };
-		68750AE4DA3C80FCF37A51B18BA6A2D9 /* HSDeviceMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSDeviceMessage.m; path = FunkyFMBase/Classes/Tool/HSDeviceMessage.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677C4CAE384A89D8C57677DB3325030B /* Pods_FunkyFMDownLoad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoad_Tests.framework; path = "Pods-FunkyFMDownLoad_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68369FB0BD1C6DD97A2D76CF93C90F46 /* HSDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadManager.h; sourceTree = "<group>"; };
+		68D9E47A5F33761859869402D131EE76 /* HSDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadManager.m; sourceTree = "<group>"; };
 		6D2759E3E4E361218D7211F571E5FD70 /* Pods-FunkyFMDownLoad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMDownLoad_Tests.modulemap"; sourceTree = "<group>"; };
-		77850E23590F88F8B6AB561953BAF9F9 /* HSAlertTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSAlertTool.m; path = FunkyFMBase/Classes/Tool/HSAlertTool.m; sourceTree = "<group>"; };
-		85BD1D3D2AA56D4EF0776285A5613769 /* Pods_FunkyFMDownLoad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoad_Example.framework; path = "Pods-FunkyFMDownLoad_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C867481BF22280D93C0D6388185AE8 /* Pods-FunkyFMDownLoad_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoad_Example-resources.sh"; sourceTree = "<group>"; };
 		923875499231919A0EABF943B04D7C3C /* Pods-FunkyFMDownLoad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoad_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95A523E12B2B524DAA836C017C1205C5 /* HSDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoadManager.h; sourceTree = "<group>"; };
 		A1A6734467C4E2303AB40757BA38435C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A260011A89757163AD101864950C47F0 /* Pods-FunkyFMDownLoad_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMDownLoad_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AC0277C1EFE7D5E1D5C9D3D893A35F8B /* HSDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadManager.m; sourceTree = "<group>"; };
 		B297720F95E14DEEB33F7DD60DBC49DE /* FunkyFMDownLoad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMDownLoad.xcconfig; sourceTree = "<group>"; };
-		B2F4DFFA31C2C7494563D0C269598DF2 /* FunkyFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMBase-dummy.m"; sourceTree = "<group>"; };
 		B35FD67B206BD0C619D92B8EFCD72808 /* Pods-FunkyFMDownLoad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMDownLoad_Example-dummy.m"; sourceTree = "<group>"; };
-		B3661BE1715C3A514F72299CB0D0B667 /* HSFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSFileTool.m; path = FunkyFMBase/Classes/Tool/HSFileTool.m; sourceTree = "<group>"; };
-		CD1D4A2B06C5A0C7F4031211ABDEE70F /* FunkyFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMBase.modulemap; sourceTree = "<group>"; };
+		C06A1E1DE3A664CBF47EA42D66767289 /* Pods_FunkyFMDownLoad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMDownLoad_Example.framework; path = "Pods-FunkyFMDownLoad_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AB5CB725107C3B62424C7B80131C64 /* Pods-FunkyFMDownLoad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMDownLoad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC90822C3E2D83BC923393F5C967FFE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF9532FF01B6A69609D49E1B94C6EC6D /* FunkyFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-prefix.pch"; sourceTree = "<group>"; };
-		E41AA3F160E29A1FEDA47279C335C0ED /* NSString+HSDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSDownLoader.m"; sourceTree = "<group>"; };
+		E4B0EA703612BBA30EDB395B974A0569 /* NSString+HSDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSDownLoader.m"; sourceTree = "<group>"; };
+		E4B2162040989AEB6F8E221F8A89EA69 /* HSDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSDownLoader.h; sourceTree = "<group>"; };
 		E5FD7B53BDD8A51E71CB4FDB81F2C7D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB16C1D42B09FA5787FBF2C56383FEA0 /* Pods-FunkyFMDownLoad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMDownLoad_Example.modulemap"; sourceTree = "<group>"; };
+		EC2EB80DBC2C7D2A58EEB45683E15F60 /* HSDownLoadFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSDownLoadFileTool.m; sourceTree = "<group>"; };
 		F10F21707DB291767A1EBF7A44ABB2E5 /* Pods-FunkyFMDownLoad_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMDownLoad_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F54401F818DEF103C007A9C2E861F743 /* FunkyFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-umbrella.h"; sourceTree = "<group>"; };
-		F97CC1933312F1AE905F03B0207AAF04 /* HSAlertTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSAlertTool.h; path = FunkyFMBase/Classes/Tool/HSAlertTool.h; sourceTree = "<group>"; };
 		FDDDD9DDA437A374B70C8F04B37FFA2F /* FunkyFMDownLoad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMDownLoad.modulemap; sourceTree = "<group>"; };
 		FE00117A37BED29A518FBF0AFCDF0153 /* Pods-FunkyFMDownLoad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoad_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE9CC95A76D4E968866674F9051EAC9C /* Pods-FunkyFMDownLoad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMDownLoad_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CFC6F7F15E6C123F65582945960FE83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA93D383CED1D7F3409EA554DE191A48 /* Foundation.framework in Frameworks */,
-				D926B9C1D59D9446FABA4079C6B511F6 /* FunkyFMBase.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5737EABF8F0A6F66730100A9F7C4E2E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FED98DA5F659155512AD4BB2B41E4858 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		65A808C8A620BCAF4DDD65A203C14A65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,42 +87,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E1D6C47A184712B21117E325777394 /* Frameworks */ = {
+		C0ECCF3F355CFCB7120EBB31F39B7B1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D96434F7A9C5CCC2D70087D5534CBAE4 /* Foundation.framework in Frameworks */,
+				987D502D2BD5CF6BA973A21C9869B445 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF231EFF8C50835F8400FF8AF7103C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6EE834788D00E60022C4F2C4077401 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B00EC6206B188B11E62A91D7553BC76 /* FunkyFMDownLoad */ = {
+		117856669023FCC2EC7966D4E7BECD7F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BD1DB12910BAD90F21EFC5443BD519B7 /* Classes */,
+				E4B2162040989AEB6F8E221F8A89EA69 /* HSDownLoader.h */,
+				5FBD2893D3CE74DDD9506038724214E7 /* HSDownLoader.m */,
+				44F6E822BEA67C2FC22334AB8CC08415 /* HSDownLoadFileTool.h */,
+				EC2EB80DBC2C7D2A58EEB45683E15F60 /* HSDownLoadFileTool.m */,
+				68369FB0BD1C6DD97A2D76CF93C90F46 /* HSDownLoadManager.h */,
+				68D9E47A5F33761859869402D131EE76 /* HSDownLoadManager.m */,
+				3D6C1CECFA815DA407131C515EF9C799 /* NSString+HSDownLoader.h */,
+				E4B0EA703612BBA30EDB395B974A0569 /* NSString+HSDownLoader.m */,
 			);
-			name = FunkyFMDownLoad;
-			path = FunkyFMDownLoad;
-			sourceTree = "<group>";
-		};
-		0BA004E83D5585F95B7AD45F150E869B /* FunkyFMBase */ = {
-			isa = PBXGroup;
-			children = (
-				B2E166F4FA88B59D437D51ECFF313882 /* Support Files */,
-				878710CB69BC38DCDA5B3A40A2179AF1 /* Tool */,
-			);
-			name = FunkyFMBase;
-			path = FunkyFMBase;
-			sourceTree = "<group>";
-		};
-		1D1EF0A334FBC4D6AC16921F42A22DF5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		2911B2F4345CDD6E86ECA84BD7DBFADE /* Pods-FunkyFMDownLoad_Tests */ = {
@@ -196,6 +138,16 @@
 			);
 			name = "Pods-FunkyFMDownLoad_Tests";
 			path = "Target Support Files/Pods-FunkyFMDownLoad_Tests";
+			sourceTree = "<group>";
+		};
+		3184F6C7B2E2048E13C1179EC3DC25BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415A438A7227F3020C2BA3569337CCA2 /* FunkyFMDownLoad.framework */,
+				C06A1E1DE3A664CBF47EA42D66767289 /* Pods_FunkyFMDownLoad_Example.framework */,
+				677C4CAE384A89D8C57677DB3325030B /* Pods_FunkyFMDownLoad_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		33C2C8B848A344A55EA7912E2209F62D /* Pods-FunkyFMDownLoad_Example */ = {
@@ -219,7 +171,7 @@
 		5FAAB905F1EF97B119F691B00BFC3643 /* FunkyFMDownLoad */ = {
 			isa = PBXGroup;
 			children = (
-				0B00EC6206B188B11E62A91D7553BC76 /* FunkyFMDownLoad */,
+				C5668E45319F95BD2177B207942F605D /* FunkyFMDownLoad */,
 				933E121A6FF9F74F5E8D9A9F1A5C671C /* Support Files */,
 			);
 			name = FunkyFMDownLoad;
@@ -231,26 +183,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A8A6344AD6AC1EEEAD2033B69FF5E5BC /* Development Pods */,
-				ABBD27317913633B3E1911C0F651E34A /* Frameworks */,
-				F38422C98F770FD1B29A97F3A29BFBC7 /* Pods */,
-				9E1703FE89B11EAC3DE082D0032C48EF /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3184F6C7B2E2048E13C1179EC3DC25BC /* Products */,
 				E71CC57B4B8730608090B3FB261A6065 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		878710CB69BC38DCDA5B3A40A2179AF1 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				F97CC1933312F1AE905F03B0207AAF04 /* HSAlertTool.h */,
-				77850E23590F88F8B6AB561953BAF9F9 /* HSAlertTool.m */,
-				30A90165983466B4DD400C520687DEBF /* HSCacheTool.h */,
-				141A32FACABA4334C583C51E6AE9D002 /* HSCacheTool.m */,
-				20C250322490B59E4484D768AAA71429 /* HSDeviceMessage.h */,
-				68750AE4DA3C80FCF37A51B18BA6A2D9 /* HSDeviceMessage.m */,
-				251ECA7DF92F50FD3912E24F31B3AE7F /* HSFileTool.h */,
-				B3661BE1715C3A514F72299CB0D0B667 /* HSFileTool.m */,
-			);
-			name = Tool;
 			sourceTree = "<group>";
 		};
 		933E121A6FF9F74F5E8D9A9F1A5C671C /* Support Files */ = {
@@ -267,17 +203,6 @@
 			path = "Example/Pods/Target Support Files/FunkyFMDownLoad";
 			sourceTree = "<group>";
 		};
-		9E1703FE89B11EAC3DE082D0032C48EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13D0D5889321D48F1A99B6D636939F35 /* FunkyFMBase.framework */,
-				08A502858F717D50818C5671414BB560 /* FunkyFMDownLoad.framework */,
-				85BD1D3D2AA56D4EF0776285A5613769 /* Pods_FunkyFMDownLoad_Example.framework */,
-				280DD8E47D6EEF62F0F8D69FF058BE9B /* Pods_FunkyFMDownLoad_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A8A6344AD6AC1EEEAD2033B69FF5E5BC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,41 +211,29 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		ABBD27317913633B3E1911C0F651E34A /* Frameworks */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */,
-				1D1EF0A334FBC4D6AC16921F42A22DF5 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B2E166F4FA88B59D437D51ECFF313882 /* Support Files */ = {
+		C5668E45319F95BD2177B207942F605D /* FunkyFMDownLoad */ = {
 			isa = PBXGroup;
 			children = (
-				CD1D4A2B06C5A0C7F4031211ABDEE70F /* FunkyFMBase.modulemap */,
-				499BCC2CBD7AE8914717A27BC43F5263 /* FunkyFMBase.xcconfig */,
-				B2F4DFFA31C2C7494563D0C269598DF2 /* FunkyFMBase-dummy.m */,
-				DF9532FF01B6A69609D49E1B94C6EC6D /* FunkyFMBase-prefix.pch */,
-				F54401F818DEF103C007A9C2E861F743 /* FunkyFMBase-umbrella.h */,
-				3D5F8BF53AED154CC52BCCACCF56B6F9 /* Info.plist */,
+				117856669023FCC2EC7966D4E7BECD7F /* Classes */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FunkyFMBase";
+			name = FunkyFMDownLoad;
+			path = FunkyFMDownLoad;
 			sourceTree = "<group>";
 		};
-		BD1DB12910BAD90F21EFC5443BD519B7 /* Classes */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4D23E0A00EBE50327333F999C73CC8F1 /* HSDownLoader.h */,
-				08452575C3973EF5130690DADF1BCA79 /* HSDownLoader.m */,
-				95A523E12B2B524DAA836C017C1205C5 /* HSDownLoadManager.h */,
-				AC0277C1EFE7D5E1D5C9D3D893A35F8B /* HSDownLoadManager.m */,
-				144ABC329D63280FF5198F1A7C94A335 /* NSString+HSDownLoader.h */,
-				E41AA3F160E29A1FEDA47279C335C0ED /* NSString+HSDownLoader.m */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E71CC57B4B8730608090B3FB261A6065 /* Targets Support Files */ = {
@@ -332,45 +245,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F38422C98F770FD1B29A97F3A29BFBC7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0BA004E83D5585F95B7AD45F150E869B /* FunkyFMBase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CDF6FAB0FDC920D0906187818D251C9 /* Headers */ = {
+		689E0E4AEDE5C6FF8E1EFF0E30241B13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1C3A80D373E117C76FE0DDC88B79D4 /* Pods-FunkyFMDownLoad_Example-umbrella.h in Headers */,
+				3D7AF229D02CBA49B25C70F46623D292 /* Pods-FunkyFMDownLoad_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60A27F37F1B05C4C3C0B531CEDF8AE6A /* Headers */ = {
+		D465227C920463E3EC9414C621DB2375 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88095CBB152518E62758BA73EE4CCD76 /* FunkyFMBase-umbrella.h in Headers */,
-				21F275FBD7E7F7A68F778175E53ADEF9 /* HSAlertTool.h in Headers */,
-				E8B76E4BB460E1EBCB4423BC96EA36B4 /* HSCacheTool.h in Headers */,
-				C3186AFF67F32F60924F8634A942E0BB /* HSDeviceMessage.h in Headers */,
-				C13BA3A72417916D25E2269E1463F7E6 /* HSFileTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3D02A347EF99746434F00F1305DD785 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16EB29E5935E6EFF76D987052F76F376 /* FunkyFMDownLoad-umbrella.h in Headers */,
-				D33D35FCA92087B967B03F9F58E7469D /* HSDownLoader.h in Headers */,
-				86C72756B08C2E5964646D1BDDF09450 /* HSDownLoadManager.h in Headers */,
-				CB3E37FE3AF375282CF30039B4BCB959 /* NSString+HSDownLoader.h in Headers */,
+				AB1A5FFCC1F080A9CB1D1692D3641CE3 /* FunkyFMDownLoad-umbrella.h in Headers */,
+				B76A8F93655805722C2D5C23494B2687 /* HSDownLoader.h in Headers */,
+				7A00303AC02A33EA254117A08F438908 /* HSDownLoadFileTool.h in Headers */,
+				34041B08C6D4864D6DB4CA9C8A614964 /* HSDownLoadManager.h in Headers */,
+				8F466C31A66FD9A87229096E6124D796 /* NSString+HSDownLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,23 +279,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17D2610F39C3A4512ED251C5B76AAA4B /* FunkyFMBase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A409EC4A5F12658D731A9A076B1425EA /* Build configuration list for PBXNativeTarget "FunkyFMBase" */;
-			buildPhases = (
-				7C4074013635AC840D850C413319B33A /* Sources */,
-				5737EABF8F0A6F66730100A9F7C4E2E9 /* Frameworks */,
-				60A27F37F1B05C4C3C0B531CEDF8AE6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FunkyFMBase;
-			productName = FunkyFMBase;
-			productReference = 13D0D5889321D48F1A99B6D636939F35 /* FunkyFMBase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3180640B65E30AC7A59640E3DFCE0FDD /* Pods-FunkyFMDownLoad_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31B18249791DFC62309DB1D90103629F /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoad_Tests" */;
@@ -416,44 +293,42 @@
 			);
 			name = "Pods-FunkyFMDownLoad_Tests";
 			productName = "Pods-FunkyFMDownLoad_Tests";
-			productReference = 280DD8E47D6EEF62F0F8D69FF058BE9B /* Pods_FunkyFMDownLoad_Tests.framework */;
+			productReference = 677C4CAE384A89D8C57677DB3325030B /* Pods_FunkyFMDownLoad_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		34E23630F3127595C6E4DAD1C4BB208E /* Pods-FunkyFMDownLoad_Example */ = {
+		5A17882101ACB4F5DA2C7DE3711EE6B4 /* FunkyFMDownLoad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3CCFDF2EC0AB76F3C47C4C879A9C1BC /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoad_Example" */;
+			buildConfigurationList = 648FFB0342717D4BF5440AF9513157A7 /* Build configuration list for PBXNativeTarget "FunkyFMDownLoad" */;
 			buildPhases = (
-				DBA5B0A2166AE6C751F8AF5AEBD2C968 /* Sources */,
-				70E1D6C47A184712B21117E325777394 /* Frameworks */,
-				0CDF6FAB0FDC920D0906187818D251C9 /* Headers */,
+				A786E258FBDEBCE769A15F8F93218F3D /* Sources */,
+				EF231EFF8C50835F8400FF8AF7103C6B /* Frameworks */,
+				D465227C920463E3EC9414C621DB2375 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				552F81DCD3D2F44BAFB2671BD6773828 /* PBXTargetDependency */,
-				09B75553AF5F873DF6AC579FBAD2E16E /* PBXTargetDependency */,
-			);
-			name = "Pods-FunkyFMDownLoad_Example";
-			productName = "Pods-FunkyFMDownLoad_Example";
-			productReference = 85BD1D3D2AA56D4EF0776285A5613769 /* Pods_FunkyFMDownLoad_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4E71137F236F63205983C7174F6A52CB /* FunkyFMDownLoad */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 13CC4BFBB4D403E0DBC2EDEEB1B71589 /* Build configuration list for PBXNativeTarget "FunkyFMDownLoad" */;
-			buildPhases = (
-				36645DE9C46B951A712F9890E7236BD0 /* Sources */,
-				2CFC6F7F15E6C123F65582945960FE83 /* Frameworks */,
-				D3D02A347EF99746434F00F1305DD785 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8B5612E8A488F9423D2FA9989810255 /* PBXTargetDependency */,
 			);
 			name = FunkyFMDownLoad;
 			productName = FunkyFMDownLoad;
-			productReference = 08A502858F717D50818C5671414BB560 /* FunkyFMDownLoad.framework */;
+			productReference = 415A438A7227F3020C2BA3569337CCA2 /* FunkyFMDownLoad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF6FCA35608A61FF7A351263FA3E64A2 /* Pods-FunkyFMDownLoad_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD298B53EB705CACF43126793D140A6 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoad_Example" */;
+			buildPhases = (
+				6CCE7432A5BA0E0A8A4B5BB676CE57EF /* Sources */,
+				C0ECCF3F355CFCB7120EBB31F39B7B1B /* Frameworks */,
+				689E0E4AEDE5C6FF8E1EFF0E30241B13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A733DC43EDD1189D67A80481542758A /* PBXTargetDependency */,
+			);
+			name = "Pods-FunkyFMDownLoad_Example";
+			productName = "Pods-FunkyFMDownLoad_Example";
+			productReference = C06A1E1DE3A664CBF47EA42D66767289 /* Pods_FunkyFMDownLoad_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -473,39 +348,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E1703FE89B11EAC3DE082D0032C48EF /* Products */;
+			productRefGroup = 3184F6C7B2E2048E13C1179EC3DC25BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17D2610F39C3A4512ED251C5B76AAA4B /* FunkyFMBase */,
-				4E71137F236F63205983C7174F6A52CB /* FunkyFMDownLoad */,
-				34E23630F3127595C6E4DAD1C4BB208E /* Pods-FunkyFMDownLoad_Example */,
+				5A17882101ACB4F5DA2C7DE3711EE6B4 /* FunkyFMDownLoad */,
+				DF6FCA35608A61FF7A351263FA3E64A2 /* Pods-FunkyFMDownLoad_Example */,
 				3180640B65E30AC7A59640E3DFCE0FDD /* Pods-FunkyFMDownLoad_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36645DE9C46B951A712F9890E7236BD0 /* Sources */ = {
+		6CCE7432A5BA0E0A8A4B5BB676CE57EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150CA47E222EB66B82642CFCC4F3E08C /* FunkyFMDownLoad-dummy.m in Sources */,
-				E3C3E4B894CB45F5210F40BD0B7279A9 /* HSDownLoader.m in Sources */,
-				003D596FB5A8EBC46A8BF8BA54FF5D42 /* HSDownLoadManager.m in Sources */,
-				6A67AE714E827F099F05BE3721BA6C71 /* NSString+HSDownLoader.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C4074013635AC840D850C413319B33A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				352196DE763E5907502EF7B3A700DA55 /* FunkyFMBase-dummy.m in Sources */,
-				0A37D6FA626ACF0CFC79DC3CF6AB0DBC /* HSAlertTool.m in Sources */,
-				069CE1DAB24B2473140FF96BDC9021E1 /* HSCacheTool.m in Sources */,
-				1F106CD1A6FEF27EBC31295EB622A117 /* HSDeviceMessage.m in Sources */,
-				AE48C55BA0F7A1C12EA5FBED64C36C7F /* HSFileTool.m in Sources */,
+				F98FB7750D0B386AD77B4FBF4F6BF737 /* Pods-FunkyFMDownLoad_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,106 +376,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA5B0A2166AE6C751F8AF5AEBD2C968 /* Sources */ = {
+		A786E258FBDEBCE769A15F8F93218F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6F50D100CA6D8A9EA7C5C36E60B08D /* Pods-FunkyFMDownLoad_Example-dummy.m in Sources */,
+				BE7D45F563266155F45C3AF91813F7CB /* FunkyFMDownLoad-dummy.m in Sources */,
+				18DF7125BE85B57C3ED0FE85F25A112F /* HSDownLoader.m in Sources */,
+				0DE09219A65E9D3E8737C49A06B8B965 /* HSDownLoadFileTool.m in Sources */,
+				C898C5E4E8F775169EF0BD2FF7A035E8 /* HSDownLoadManager.m in Sources */,
+				72EB2B6ED2F0A2CE8CABC954A85155A5 /* NSString+HSDownLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09B75553AF5F873DF6AC579FBAD2E16E /* PBXTargetDependency */ = {
+		9A733DC43EDD1189D67A80481542758A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FunkyFMDownLoad;
-			target = 4E71137F236F63205983C7174F6A52CB /* FunkyFMDownLoad */;
-			targetProxy = 1936155DA2832454C341F773EBFE675C /* PBXContainerItemProxy */;
-		};
-		552F81DCD3D2F44BAFB2671BD6773828 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FunkyFMBase;
-			target = 17D2610F39C3A4512ED251C5B76AAA4B /* FunkyFMBase */;
-			targetProxy = B04996280E57BB38F0BD846C30AB40B9 /* PBXContainerItemProxy */;
-		};
-		C8B5612E8A488F9423D2FA9989810255 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FunkyFMBase;
-			target = 17D2610F39C3A4512ED251C5B76AAA4B /* FunkyFMBase */;
-			targetProxy = 1D3CD2C20191B3D42304367C220496B2 /* PBXContainerItemProxy */;
+			target = 5A17882101ACB4F5DA2C7DE3711EE6B4 /* FunkyFMDownLoad */;
+			targetProxy = EE888DB082E8D2F13BE33B4793AEA389 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		161A38A6AA20ACC59AC0CF68177B2DAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 499BCC2CBD7AE8914717A27BC43F5263 /* FunkyFMBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FunkyFMBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		28F9DBF06994AEB694924CB830A6D620 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 923875499231919A0EABF943B04D7C3C /* Pods-FunkyFMDownLoad_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoad_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoad_Example/Pods-FunkyFMDownLoad_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FunkyFMDownLoad_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -709,38 +492,6 @@
 			};
 			name = Release;
 		};
-		729B428EDE2631BB949A470F260ABCD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 499BCC2CBD7AE8914717A27BC43F5263 /* FunkyFMBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FunkyFMBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		73D5B50828E43F53F02C1D647E7F9ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2258F5D8671998A881DB57AD5B41DBC4 /* Pods-FunkyFMDownLoad_Tests.debug.xcconfig */;
@@ -769,6 +520,74 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_FunkyFMDownLoad_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75C893B1661BDBE80B6A81E0F50C790B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B297720F95E14DEEB33F7DD60DBC49DE /* FunkyFMDownLoad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMDownLoad/FunkyFMDownLoad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMDownLoad/FunkyFMDownLoad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyFMDownLoad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BA2C88B4A96173CB9984B672EC77D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923875499231919A0EABF943B04D7C3C /* Pods-FunkyFMDownLoad_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMDownLoad_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMDownLoad_Example/Pods-FunkyFMDownLoad_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMDownLoad_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -813,39 +632,7 @@
 			};
 			name = Release;
 		};
-		BBC48B7C6D39F7821A8BFDF7691E07B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B297720F95E14DEEB33F7DD60DBC49DE /* FunkyFMDownLoad.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMDownLoad/FunkyFMDownLoad-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunkyFMDownLoad/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FunkyFMDownLoad/FunkyFMDownLoad.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FunkyFMDownLoad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D2BA5DB8637A780A946AD67BB76D817D /* Release */ = {
+		984F62C5FBA0509AA0A640462994B65D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE00117A37BED29A518FBF0AFCDF0153 /* Pods-FunkyFMDownLoad_Example.release.xcconfig */;
 			buildSettings = {
@@ -881,7 +668,7 @@
 			};
 			name = Release;
 		};
-		F1327795E7BAC5BE8490C1E004AD57C4 /* Debug */ = {
+		E1E90940AAAA1C69A5C6659C785A6AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B297720F95E14DEEB33F7DD60DBC49DE /* FunkyFMDownLoad.xcconfig */;
 			buildSettings = {
@@ -916,15 +703,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13CC4BFBB4D403E0DBC2EDEEB1B71589 /* Build configuration list for PBXNativeTarget "FunkyFMDownLoad" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1327795E7BAC5BE8490C1E004AD57C4 /* Debug */,
-				BBC48B7C6D39F7821A8BFDF7691E07B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -943,20 +721,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A409EC4A5F12658D731A9A076B1425EA /* Build configuration list for PBXNativeTarget "FunkyFMBase" */ = {
+		648FFB0342717D4BF5440AF9513157A7 /* Build configuration list for PBXNativeTarget "FunkyFMDownLoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				729B428EDE2631BB949A470F260ABCD7 /* Debug */,
-				161A38A6AA20ACC59AC0CF68177B2DAB /* Release */,
+				E1E90940AAAA1C69A5C6659C785A6AFA /* Debug */,
+				75C893B1661BDBE80B6A81E0F50C790B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CCFDF2EC0AB76F3C47C4C879A9C1BC /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoad_Example" */ = {
+		FDD298B53EB705CACF43126793D140A6 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMDownLoad_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28F9DBF06994AEB694924CB830A6D620 /* Debug */,
-				D2BA5DB8637A780A946AD67BB76D817D /* Release */,
+				7BA2C88B4A96173CB9984B672EC77D6E /* Debug */,
+				984F62C5FBA0509AA0A640462994B65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

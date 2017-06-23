@@ -1,37 +1,14 @@
 //
-//  HSFileTool.m
-//  FunkyFMDownLoad
+//  HSDownLoadFileTool.m
+//  Pods
 //
-//  Created by 胡晟 on 2017/6/19.
-//  Copyright © 2017年 funkyHS. All rights reserved.
+//  Created by 胡晟 on 2017/6/23.
+//
 //
 
-#import "HSFileTool.h"
+#import "HSDownLoadFileTool.h"
 
-@implementation HSFileTool
-
-
-+ (float)calculateFileSizeInUnit:(unsigned long long)contentLength {
-    if(contentLength >= pow(1024, 3))
-        return (float) (contentLength / (float)pow(1024, 3));
-    else if(contentLength >= pow(1024, 2))
-        return (float) (contentLength / (float)pow(1024, 2));
-    else if(contentLength >= 1024)
-        return (float) (contentLength / (float)1024);
-    else
-        return (float) (contentLength);
-}
-
-+ (NSString *)calculateUnit:(unsigned long long)contentLength {
-    if(contentLength >= pow(1024, 3))
-        return @"GB";
-    else if(contentLength >= pow(1024, 2))
-        return @"MB";
-    else if(contentLength >= 1024)
-        return @"KB";
-    else
-        return @"Bytes";
-}
+@implementation HSDownLoadFileTool
 
 + (BOOL)fileExists:(NSString *)filePath {
     if (filePath.length == 0) {

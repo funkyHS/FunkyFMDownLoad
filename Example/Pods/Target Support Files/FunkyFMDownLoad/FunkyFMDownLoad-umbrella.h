@@ -11,6 +11,7 @@
 #endif
 
 #import "HSDownLoader.h"
+#import "HSDownLoadFileTool.h"
 #import "HSDownLoadManager.h"
 #import "NSString+HSDownLoader.h"
 
