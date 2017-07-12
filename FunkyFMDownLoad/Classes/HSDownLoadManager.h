@@ -16,6 +16,15 @@
 + (instancetype)shareInstance;
 
 
+
+// 根据URL下载资源
+- (HSDownLoader *)downLoadWithURL: (NSURL *)url;
+
+// 获取url对应的downLoader
+- (HSDownLoader *)getDownLoaderWithURL: (NSURL *)url;
+
+
+
 /**
  根据 url 下载相应的资源
 
@@ -39,8 +48,10 @@
 // 根据url 取消任务, 并清理资源
 - (void)cacelAndCleanWithURL:(NSURL *)url;
 
-
+// 暂停所有
 - (void)pauseAll;
+
+// 恢复所有
 - (void)resumeAll;
 
 
