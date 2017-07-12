@@ -76,6 +76,8 @@ static HSDownLoadManager *_shareInstance;
     return downLoader;
 }
 
+
+
 // 根据 url 下载相应的资源
 - (void)downLoader:(NSURL *)url downLoadInfo:(DownLoadInfoType)downLoadInfo progress:(ProgressBlockType)progressBlock success:(SuccessBlockType)successBlock failed:(FailedBlockType)failedBlock {
     

@@ -8,6 +8,7 @@
 
 #import "HSDownLoader.h"
 #import "HSDownLoadFileTool.h"
+#import "NSString+HSDownLoader.h"
 
 
 #define kCachePath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
@@ -31,6 +32,8 @@
 @property (nonatomic, copy) NSString *downLoadingPath;
 /** 文件输出流 */
 @property (nonatomic, strong) NSOutputStream *outputStream;
+
+@property (nonatomic, weak) NSURL *url;
 
 
 @end
@@ -56,10 +59,37 @@
     
 }
 
+// 获取下载完成后的存放路径
++ (NSString *)downLoadedFileWithURL: (NSURL *)url {
+    
+    NSString *cacheFilePath = [kCachePath stringByAppendingPathComponent:url.lastPathComponent];
+    if([HSDownLoadFileTool fileExists:cacheFilePath]) {
+        return cacheFilePath;
+    }
+    return nil;
+}
+
+// 该资源的临时缓存大小
++ (long long)tmpCacheSizeWithURL: (NSURL *)url {
+    
+    NSString *tmpFileMD5 = [url.absoluteString md5Str];
+    NSString *tmpPath = [kTmpPath stringByAppendingPathComponent:tmpFileMD5];
+    return  [HSDownLoadFileTool fileSize:tmpPath];
+}
+
+// 清除下载完成的资源文件
++ (void)clearCacheWithURL: (NSURL *)url {
+    NSString *cachePath = [kCachePath stringByAppendingPathComponent:url.lastPathComponent];
+    [HSDownLoadFileTool removeFile:cachePath];
+}
+
+
 
 // 根据URL地址下载资源, 如果任务已经存在, 则执行继续动作
 - (void)downLoader:(NSURL *)url {
     
+    
+    self.url = url;
     
     // 0. 当前任务,已经存在了
     if ([url isEqual:self.dataTask.originalRequest.URL]) {
@@ -77,9 +107,8 @@
     // 1. 文件的存放
     // 下载ing => temp + 名称 (MD5 + URL 防止重复资源)
     // 下载完成 => cache + 名称
-    NSString *fileName = url.lastPathComponent;
-    self.downLoadedPath = [kCachePath stringByAppendingPathComponent:fileName];
-    self.downLoadingPath = [kTmpPath stringByAppendingPathComponent:fileName];
+    self.downLoadedPath = [kCachePath stringByAppendingPathComponent:url.lastPathComponent];
+    self.downLoadingPath = [kTmpPath stringByAppendingPathComponent:[url.absoluteString md5Str]];
     
     
     
@@ -311,6 +340,14 @@
     if (_state == HSDownLoadStatePauseFailed && self.faildBlock) {
         self.faildBlock();
     }
+    
+    
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kDownLoadURLOrStateChangeNotification object:nil userInfo:@{
+                                                                                                                           @"downLoadURL": self.url,
+                                                                                                                           @"downLoadState": @(self.state)
+                                                                                                                           }];
+    
 }
 
 - (void)setProgress:(float)progress {

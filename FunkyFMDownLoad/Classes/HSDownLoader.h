@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define kDownLoadURLOrStateChangeNotification @"downLoadURLOrStateChangeNotification"
+
+
 typedef NS_ENUM(NSUInteger, HSDownLoadState) {
     HSDownLoadStatePause,
     HSDownLoadStateDownLoading,
@@ -27,6 +30,17 @@ typedef void(^StateChangeType)(HSDownLoadState state);
 
 // 外界只需使用此方法
 - (void)downLoader:(NSURL *)url downLoadInfo:(DownLoadInfoType)downLoadInfo progress:(ProgressBlockType)progressBlock success:(SuccessBlockType)successBlock failed:(FailedBlockType)failedBlock;
+
+
+
+// 获取下载完成后的存放路径
++ (NSString *)downLoadedFileWithURL: (NSURL *)url;
+
+// 该资源的临时缓存大小
++ (long long)tmpCacheSizeWithURL: (NSURL *)url;
+
+// 清除下载完成的资源文件
++ (void)clearCacheWithURL: (NSURL *)url;
 
 
 // 根据URL地址下载资源, 如果任务已经存在, 则执行继续动作   url 资源路径
